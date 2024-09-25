@@ -1,0 +1,423 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@media only screen and (max-width: 500px) {
+  br {
+    display: none;
+  }
+
+  #heading1 {
+    text-align: start;
+    font-size: 10px;
+  }
+
+  #prfh1 {
+    text-align: start;
+  }
+
+  #heading2 {
+    text-align: start;
+    padding: 0;
+  }
+
+  #prfh2 {
+    text-align: start;
+  }
+
+  #heading3 {
+    text-align: start;
+  }
+
+  #textin2 {
+    padding-top: o;
+  }
+
+  #sec10btn {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+/* sec 1 */
+.section1 {
+  background-color: blue;
+}
+
+#btn1 {
+  margin-left: auto;
+  width: 150px;
+  height: 40px;
+  background-color: greenyellow;
+  color: black;
+  border-radius: 10px;
+}
+
+/* sec 2 */
+.main {
+  text-align: center;
+}
+
+#heading1 {
+  font-size: 80px;
+  padding: 50px 20px;
+  color: white;
+}
+
+#prfh1 {
+  padding-bottom: 20px;
+  color: white;
+}
+
+#btn2 {
+  width: 150px;
+  height: 40px;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+}
+
+#card {
+  padding: 30px 50px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+#cards {
+  width: 300px;
+  height: 150px;
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+}
+
+#cardsin {
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#btn3 {
+  background-color: rgb(236, 236, 236);
+  border: rgb(236, 236, 236);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  align-content: center;
+}
+
+#cardtext {
+  text-align: start;
+  padding-left: 15px;
+}
+
+#graph {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+/* sec 3 */
+#p2 {
+  margin: 30px 10px;
+  font-size: 20px;
+}
+
+#textcon {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-bottom: 60px;
+}
+
+.boxs {
+  width: 200px;
+  height: auto;
+  font-size: 24px;
+}
+
+#heading2 {
+  padding: 10px 30px;
+}
+
+/* sec 4 */
+.section4 {
+  background-image: linear-gradient(rgb(230, 248, 240), rgb(150, 253, 208));
+}
+
+#mainbox {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  gap: 30px;
+  padding: 15px 20px;
+  flex-wrap: wrap;
+}
+
+#box {
+  width: 450px;
+  height: 280px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+#box2 {
+  width: 450px;
+  height: 280px;
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+}
+
+#boxin {
+  text-align: start;
+  padding: 25px;
+}
+
+#boxbtn {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+
+#boxbtn2 {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+#boxtext {
+  text-align: start;
+  padding: 40px 10px 20px 20px;
+}
+
+/* Sec 5 */
+#heading3 {
+  padding-top: 50px;
+}
+
+#smmainbox {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.smbox {
+  width: 200px;
+  height: 40px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.smbox2 {
+  width: 200px;
+  height: 40px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+}
+
+#smtext {
+  padding-top: 5px;
+}
+
+/* sec 6 */
+#maindiv {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+#divtext {
+  text-align: start;
+  width: 600px;
+  height: 450px;
+}
+
+#textin {
+  padding: 10px;
+}
+
+#checkin {
+  display: flex;
+  justify-content: start;
+  gap: 30px;
+}
+
+#checkin2 {
+  display: flex;
+  justify-content: start;
+  gap: 30px;
+}
+
+#img {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+}
+
+.logo1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+}
+
+#userinfo {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background-image: linear-gradient(rgb(230, 248, 240), rgb(150, 253, 208));
+  border-radius: 15px;
+}
+
+.logo2 {
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+/* se 8 */
+.section8 {
+  background-image: linear-gradient(rgb(230, 248, 240), rgb(150, 253, 208));
+  margin-top: 70px;
+}
+
+#textin2 {
+  text-align: start;
+  padding-top: 100px;
+}
+
+#btndiv {
+  padding-top: 30px;
+}
+
+#btn4 {
+  width: 250px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+#textboxx {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#textbox {
+  width: 400px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: start;
+}
+
+/* sec 9 */
+#sec9 {
+  margin-top: 60px;
+  width: 60%;
+  background-image: linear-gradient(rgb(150, 253, 208), rgb(230, 248, 240));
+  border-radius: 25px;
+  margin-left: 20%;
+}
+
+#sec9in {
+  padding: 40px;
+}
+
+#btn5 {
+  width: 90px;
+  height: 50px;
+  background-color: blue;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+/* sec 10 */
+#sec10 {
+  margin-top: 60px;
+  width: 60%;
+  background-color: blue;
+  color: white;
+  border-radius: 25px;
+  margin-left: 20%;
+}
+
+#sec10in {
+  padding: 40px;
+}
+
+#sec10btn {
+  gap: 20px;
+}
+
+/* footer */
+#footerheading {
+  padding-top: 60px;
+  text-align: center;
+}
+
+#footerbox {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+
+.footerboxin {
+  text-align: start;
+}
+
+#jionbox {
+  width: 200px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: start;
+  padding: 5px;
+
+}
+
+#footerendin {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
+
+#footericon {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* footer section */
+#footersection {
+  display: none;
+}
+
+#footerhead {
+  padding-top: 30px;
+}
